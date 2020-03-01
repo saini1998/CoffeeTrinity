@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, MainActivity.class));
             }
         });
-
+//Button
         mSignUp = (Button) findViewById(R.id.CreateAccountButtonID);
         mSignUp.setOnClickListener(new View.OnClickListener() {
             @Override

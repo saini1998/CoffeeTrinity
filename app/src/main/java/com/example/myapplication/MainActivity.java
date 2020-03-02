@@ -9,7 +9,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     private Button goToLogin;
-    private Button mSignUp;
+    private Button SignUp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,9 +24,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, MainActivity.class));
             }
         });
-//Button
-        mSignUp = (Button) findViewById(R.id.CreateAccountButtonID);
-        mSignUp.setOnClickListener(new View.OnClickListener() {
+
+        SignUp = (Button) findViewById(R.id.CreateAccountID);
+        SignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent createAccount = new Intent (MainActivity.this, SignUpPage.class);

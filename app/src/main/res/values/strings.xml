@@ -8,4 +8,11 @@
     <string name="rewrite_password">Rewrite Password</string>
     <string name="login_page">Login Page</string>
     <string name="enter_e_mail">Enter E-mail</string>
+    <string name="title_activity_main_home_page">mainHomePage</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_map">Map</string>
+    <string name="title_timetable">TimeTable</string>
+    <string name="title_account">Account</string>
 </resources>

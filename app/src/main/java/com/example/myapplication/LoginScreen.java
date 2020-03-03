@@ -20,8 +20,9 @@ public class LoginScreen extends AppCompatActivity {
     EditText takePassword;
     String message;
 
-    String fakeE = "bob@tcd.ie";
-    String fakeP = "bob123";
+    String fakeE = "bob";
+    String fakeP = "123" +
+            "";
 
 
 
@@ -42,7 +43,7 @@ public class LoginScreen extends AppCompatActivity {
                 userP = takePassword.getText().toString();
 
 
-                Intent createAccount = new Intent (LoginScreen.this, LoginScreen.class);
+                Intent createAccount = new Intent (LoginScreen.this, mainHomePage.class);
 
                 if(TextUtils.isEmpty(userE) || TextUtils.isEmpty(userP) ){
                     message = "There is a missing field";
